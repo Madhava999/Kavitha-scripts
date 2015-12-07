@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locator>
+<ClickCampaignsTab><![CDATA[//*[@id='campaigns']]]></ClickCampaignsTab>
+<ClickOnCreate><![CDATA[//*[@id='actionbuttons']]]></ClickOnCreate>
+<Status><![CDATA[//*[@id='CampaignCampaignStatus']]]></Status>
+<Category><![CDATA[//*[@id='CampaignCategoryId']]]></Category>
+<Owner><![CDATA[//*[@id='CampaignAssignedUserId']]]></Owner>
+<Maneger><![CDATA[//*[@id='CampaignAssignedManagerId']]]></Maneger>
+<Campaignname><![CDATA[//*[@id='CampaignName']]]></Campaignname>
+<Startdate><![CDATA[//*[@id='CampaignStartDate']]]></Startdate>
+<Enddate><![CDATA[//*[@id='CampaignEndDate']]]></Enddate>
+<Campaigntype><![CDATA[//*[@id='CampaignType']]]></Campaigntype>
+<Expectedcost><![CDATA[//*[@id='CampaignBudgetedCost']]]></Expectedcost>
+<Targetednum><![CDATA[//*[@id='CampaignNumSent']]]></Targetednum>
+<Actualcost><![CDATA[//*[@id='CampaignActualCost']]]></Actualcost>
+<Expectedresponse><![CDATA[//*[@id='CampaignExpectedResponse']]]></Expectedresponse>
+<Expectedrevenue><![CDATA[//*[@id='CampaignExpectedRevenue']]]></Expectedrevenue>
+<Campaignurl><![CDATA[//*[@id='CampaignUrl']]]></Campaignurl>
+<Save><![CDATA[//*[@id='CampaignCreateForm']/div[3]/div/div[4]/div/div/button]]></Save>
+<Cancel><![CDATA[//*[@id='CampaignCreateForm']/div[3]/div/div[4]/div/div/a[2]]]></Cancel>
+<Edit><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/a]]></Edit> 
+  
+  ################################ Add Leads ################################################
+  <Clickonrecord><![CDATA[//*[@id='normal']]]></Clickonrecord>
+  <Moreactions><![CDATA[//div[contains(@class , 'col-md-12')]/u1/li[4]//div[contains(@class, 'btn btn-xs btn-warning button-alignment dropdown-toggle" data-close-others="true)]/a]]></Moreactions>
+  <AddLead><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/div/div/ul/li[4]/a]]></AddLead>
+  <Resultperpage><![CDATA[//*[@id='add_opportunities_length']/label/select]]></Resultperpage>
+  <MasterCheckbox><![CDATA[//*[@id='add_opportunities']/thead/tr/th[1]/div/span/input]]></MasterCheckbox>
+  <Addtocampaigns><![CDATA[//*[@id='CreateCampaignLead']/div[2]/div/ul/li[6]/button]]></Addtocampaigns>
+  
+  ########################## Add Opportunity  ###################################################
+  <Clickonrecord><![CDATA[//*[@id='normal']]]></Clickonrecord>
+  <Moreactions><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/div/div/a]]></Moreactions>
+  <Addopportunity><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/div/div/ul/li[6]/a]]></Addopportunity>
+  <Resultperpage><![CDATA[//*[@id='add_opportunities_length']/label/select]]></Resultperpage>
+  <MasterCheckbox><![CDATA[//*[@id='add_opportunities']/thead/tr/th[1]/div/span/input]]></MasterCheckbox>
+  <Addtocampaigns><![CDATA[//*[@id='CreateCampaignLead']/div[2]/div/ul/li[6]/button]]></Addtocampaigns>
+
+   #########################  Add Contacts  ####################################################
+<Clickonrecord><![CDATA[//*[@id='normal']]]></Clickonrecord>
+<Moreactions><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/div/div/a]]></Moreactions>
+<AddContact><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/div/div/ul/li[6]/a]]></AddContact>
+<Resultperpage><![CDATA[//*[@id='add_opportunities_length']/label/select]]></Resultperpage>
+<MasterCheckbox><![CDATA[//*[@id='add_opportunities']/thead/tr/th[1]/div/span/input]]></MasterCheckbox>
+<Addtocampaigns><![CDATA[//*[@id='CreateCampaignLead']/div[2]/div/ul/li[6]/button]]></Addtocampaigns>
+  
+  #########################   Add File  #########################################################
+  <Clickonrecord><![CDATA[//*[@id='normal']]]></Clickonrecord>
+  <Moreactions><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/div/div/a]]></Moreactions>
+  <Addfile><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/div/div/ul/li[8]/a]]></Addfile>
+  <Name><![CDATA[//*[@id='AttachmentName']]]></Name>
+  <Category><![CDATA[//*[@id='AttachmentCategoryId']]]></Category>
+  <Files><![CDATA[//*[@id='AttachmentFiles']]]></Files>
+  <Description><![CDATA[//*[@id='AttachmentDescription']]]></Description>
+  <Save><![CDATA[//*[@id='CreateAttachment']/div[2]/div/div[3]/button[1]]]></Save>
+  <Cancel><![CDATA[//*[@id='CreateAttachment']/div[2]/div/div[3]/button[2]]]></Cancel>
+
+  ############################# Add task  ##################################################
+  <Clickonrecord><![CDATA[//*[@id='normal']]]></Clickonrecord>
+  <Moreactions><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/div/div/a]]></Moreactions>
+  <Addtask><![CDATA[//*[@id='Task']]]></Addtask>
+  <EventType><![CDATA[//*[@id='EventEventType']]]></EventType>
+  <Location><![CDATA[//*[@id='EventLocation']]]></Location>
+  <Subject><![CDATA[//*[@id='EventName']]]></Subject>
+  <StartDate><![CDATA[//*[@id='EventStartDate']]]></StartDate>
+  <starttime><![CDATA[//*[@id='clockface_start_event']]]></starttime>
+  <EndDate><![CDATA[//*[@id='EventEndDate']]]></EndDate>
+  <Endtime><![CDATA[//*[@id='clockface_end_event']]]></Endtime>
+  <Reminders><![CDATA[//*[@id='pop']/label/div/span]]></Reminders>
+  <Popup><![CDATA[//*[@id='reminderTime']]]></Popup>
+  <Email><![CDATA[//*[@id='CreateEventForm']/div[2]/div[1]/div/div/div/div[1]/div[5]/div[3]/div/div[1]/label/div/span]]></Email>
+  <ReminderTime><![CDATA[//*[@id='emailReminderTime']]]></ReminderTime>
+  <Recurring><![CDATA[//*[@id='CreateEventForm']/div[2]/div[1]/div/div/div/div[1]/div[6]/div[2]/div/div[1]/label/div/span]]></Recurring>
+  <RepeateonceinEvery><![CDATA[//*[@id='EventRepeatInterval']]]></RepeateonceinEvery>
+  <RepeatType><![CDATA[//*[@id='EventRepeatType']]]></RepeatType>
+  <WeekUI><![CDATA[//*[@id='repeatWeekUI']/div/div/label[1]/div/span/input]]></WeekUI>
+  <OnRadiobutton><![CDATA[//*[@id='repeatMonthUI']/div/div[1]/div[1]/label/div/span]]></OnRadiobutton>
+  <Reportsofmonth><![CDATA[//*[@id='EventRepeatMonthDate']]]></Reportsofmonth>
+  <Dateofthemonth><![CDATA[//*[@id='EventRepeatMonthDate']]]></Dateofthemonth>
+  <OnRadiobutton><![CDATA[//*[@id='repeatMonthUI']/div/div[3]/div[1]/label/div/span]]></OnRadiobutton>
+  <Daytype><![CDATA[//*[@id='EventRepeatMonthDaytype']]]></Daytype>
+  <MonthDay><![CDATA[//*[@id='EventRepeatMonthDay']]]></MonthDay>
+  <Until><![CDATA[//*[@id='EventRepeatUntil']]]></Until>
+  <Save><![CDATA[//*[@id='CreateEventForm']/div[2]/div[2]/button]]></Save>
+  <Cancel><![CDATA[//*[@id='CreateEventForm']/div[2]/div[2]/a]]></Cancel>
+  
+  ######################### Setup Appointment  ######################################################
+
+<Clickonrecord><![CDATA[//*[@id='normal']]]></Clickonrecord>
+<Moreactions><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/div/div/a]]></Moreactions>
+<Addappointment><![CDATA[//*[@id='App']]]></Addappointment>
+<EventType><![CDATA[//*[@id='EventEventType']]]></EventType>
+<Location><![CDATA[//*[@id='EventLocation']]]></Location>
+<Subject><![CDATA[//*[@id='EventName']]]></Subject>
+<StartDate><![CDATA[//*[@id='EventStartDate']]]></StartDate>
+<starttime><![CDATA[//*[@id='clockface_start_event']]]></starttime>
+<EndDate><![CDATA[//*[@id='EventEndDate']]]></EndDate>
+<Endtime><![CDATA[//*[@id='clockface_end_event']]]></Endtime>
+<Reminders><![CDATA[//*[@id='pop']/label/div/span]]></Reminders>
+<Popup><![CDATA[//*[@id='reminderTime']]]></Popup>
+<Email><![CDATA[//*[@id='CreateEventForm']/div[2]/div[1]/div/div/div/div[1]/div[5]/div[3]/div/div[1]/label/div/span]]></Email>
+<ReminderTime><![CDATA[//*[@id='emailReminderTime']]]></ReminderTime>
+<Recurring><![CDATA[//*[@id='CreateEventForm']/div[2]/div[1]/div/div/div/div[1]/div[6]/div[2]/div/div[1]/label/div/span]]></Recurring>
+<RepeateonceinEvery><![CDATA[//*[@id='EventRepeatInterval']]]></RepeateonceinEvery>
+<RepeatType><![CDATA[//*[@id='EventRepeatType']]]></RepeatType>
+<WeekUI><![CDATA[//*[@id='repeatWeekUI']/div/div/label[1]/div/span/input]]></WeekUI>
+<OnRadiobutton><![CDATA[//*[@id='repeatMonthUI']/div/div[1]/div[1]/label/div/span]]></OnRadiobutton>
+<Reportsofmonth><![CDATA[//*[@id='EventRepeatMonthDate']]]></Reportsofmonth>
+<Dateofthemonth><![CDATA[//*[@id='EventRepeatMonthDate']]]></Dateofthemonth>
+<OnRadiobutton><![CDATA[//*[@id='repeatMonthUI']/div/div[3]/div[1]/label/div/span]]></OnRadiobutton>
+<Daytype><![CDATA[//*[@id='EventRepeatMonthDaytype']]]></Daytype>
+<MonthDay><![CDATA[//*[@id='EventRepeatMonthDay']]]></MonthDay>
+<Until><![CDATA[//*[@id='EventRepeatUntil']]]></Until>
+<Save><![CDATA[//*[@id='CreateEventForm']/div[2]/div[2]/button]]></Save>
+<Cancel><![CDATA[//*[@id='CreateEventForm']/div[2]/div[2]/a]]></Cancel>
+
+  ######################  Setup meeting  ###################################################
+
+<Clickonrecord><![CDATA[//*[@id='normal']]]></Clickonrecord>
+<Moreactions><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/div/div/a]]></Moreactions>
+<Setupmeeting><![CDATA[//*[@id='Meeting']]]></Setupmeeting>
+<EventType><![CDATA[//*[@id='EventEventType']]]></EventType>
+<Location><![CDATA[//*[@id='EventLocation']]]></Location>
+<Subject><![CDATA[//*[@id='EventName']]]></Subject>
+<StartDate><![CDATA[//*[@id='EventStartDate']]]></StartDate>
+<starttime><![CDATA[//*[@id='clockface_start_event']]]></starttime>
+<EndDate><![CDATA[//*[@id='EventEndDate']]]></EndDate>
+<Endtime><![CDATA[//*[@id='clockface_end_event']]]></Endtime>
+<Reminders><![CDATA[//*[@id='pop']/label/div/span]]></Reminders>
+<Popup><![CDATA[//*[@id='reminderTime']]]></Popup>
+<Email><![CDATA[//*[@id='CreateEventForm']/div[2]/div[1]/div/div/div/div[1]/div[5]/div[3]/div/div[1]/label/div/span]]></Email>
+<ReminderTime><![CDATA[//*[@id='emailReminderTime']]]></ReminderTime>
+<Recurring><![CDATA[//*[@id='CreateEventForm']/div[2]/div[1]/div/div/div/div[1]/div[6]/div[2]/div/div[1]/label/div/span]]></Recurring>
+<RepeateonceinEvery><![CDATA[//*[@id='EventRepeatInterval']]]></RepeateonceinEvery>
+<RepeatType><![CDATA[//*[@id='EventRepeatType']]]></RepeatType>
+<WeekUI><![CDATA[//*[@id='repeatWeekUI']/div/div/label[1]/div/span/input]]></WeekUI>
+<OnRadiobutton><![CDATA[//*[@id='repeatMonthUI']/div/div[1]/div[1]/label/div/span]]></OnRadiobutton>
+<Reportsofmonth><![CDATA[//*[@id='EventRepeatMonthDate']]]></Reportsofmonth>
+<Dateofthemonth><![CDATA[//*[@id='EventRepeatMonthDate']]]></Dateofthemonth>
+<OnRadiobutton><![CDATA[//*[@id='repeatMonthUI']/div/div[3]/div[1]/label/div/span]]></OnRadiobutton>
+<Daytype><![CDATA[//*[@id='EventRepeatMonthDaytype']]]></Daytype>
+<MonthDay><![CDATA[//*[@id='EventRepeatMonthDay']]]></MonthDay>
+<Until><![CDATA[//*[@id='EventRepeatUntil']]]></Until>
+<Inviteecontacts><![CDATA[//*[@id='pop']/label/div/span//*[@id='EventInviteecontacts']]]></Inviteecontacts>
+<Email><![CDATA[//*[@id='EventEmail']]]></Email>
+<Firstname><![CDATA[//*[@id='EventFirstname']]]></Firstname>
+<Lastname><![CDATA[//*[@id='EventLastname']]]></Lastname>
+<Search><![CDATA[//*[@id='addinvitees']]]></Search>
+<Save><![CDATA[//*[@id='CreateEventForm']/div[2]/div[2]/button]]></Save>
+<Cancel><![CDATA[//*[@id='CreateEventForm']/div[2]/div[2]/a]]></Cancel>
+
+###########  Campaign ##################################
+  <Deletecampaign><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/div/div/ul/li[2]/a]]></Deletecampaign>
+<Copycampaign><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/div/div/ul/li[1]/a]]></Copycampaign>
+
+  ############################## Index Page ###################################################
+<Defaultview><![CDATA[//*[@id='teamName']]]></Defaultview>
+<Customviews><![CDATA[//*[@id='savedSearch']]]></Customviews>
+<Filterbygroup><![CDATA[//*[@id='groupName']]]></Filterbygroup>
+<Filterbytag><![CDATA[//*[@id='tags_tagsinput']]]></Filterbytag>
+<Backtocampaign><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[2]/a]]></Backtocampaign>
+<Filter><![CDATA[//*[@id='campaigns_grid_filter']/label/input]]></Filter>
+<Reset><![CDATA[//*[@id='ToolTables_campaigns_grid_0']]]></Reset>
+<Searchbutton><![CDATA[//*[@id='search_tags']]]></Searchbutton>
+<resettag><![CDATA[//*[@id='reset_search_tags']]]></resettag>
+<Actionicon><![CDATA[//*[@id='actionicons1']/a/i[1]]]></Actionicon>
+<Viewicon><![CDATA[//*[@id='actionicons1']/ul/li[1]/a]]></Viewicon>
+<Editicon><![CDATA[//*[@id='actionicons1']/ul/li[2]/a]]></Editicon>
+<Deleteicon><![CDATA[//*[@id='actionicons1']/ul/li[3]/a]]></Deleteicon>
+  <ExportCSV><![CDATA[//*[@id='ZeroClipboard_TableToolsMovie_1']]]></ExportCSV>
+  <ExportPDF><![CDATA[//*[@id='ZeroClipboard_TableToolsMovie_2']]]></ExportPDF>
+  <Import><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/a]]></Import>
+  <Groups><![CDATA[html/body/div[4]/div[1]/ul/li[7]/ul/li[4]/a]]></Groups>
+  <Trash><![CDATA[html/body/div[4]/div[1]/ul/li[7]/ul/li[3]/a]]></Trash>
+  
+
+
+  ############# Bulk Actions###################################
+
+  <Mastercheckbox><![CDATA[//*[@id='campaigns_grid']/thead/tr/th[1]/div/span/input]]></Mastercheckbox>
+ <Mousehover><![CDATA[//*[@id='campaigns_grid_wrapper']/div[1]/div/div/button]]></Mousehover>
+<GroupBulkAction><![CDATA[//*[@id='campaign_groups_wrapper']/div[1]/div/div/button]]></GroupBulkAction>-->
+<Bulkupdate><![CDATA[//*[@id='bulk_update']]]></Bulkupdate>
+<Status><![CDATA[//*[@id='BulkUpdateCampaignStatus']]]></Status>
+<Category><![CDATA[//*[@id='BulkUpdateCategoryId']]]></Category>
+<Type><![CDATA[//*[@id='BulkUpdateType']]]></Type>
+<Owner><![CDATA[//*[@id='BulkUpdateAssignedUserId']]]></Owner>
+<Manager><![CDATA[//*[@id='BulkUpdateAssignedManagerId']]]></Manager>
+<update><![CDATA[//*[@id='update_all']/div/div/div[3]/a]]></update>
+<Cancel><![CDATA[//*[@id='update_all']/div/div/div[3]/a]]></Cancel>
+
+      ####################### Bulk Add Group ###################################
+
+<Addtogroup><![CDATA[//*[@id='bulk_update_group']]]></Addtogroup>
+<BulkUpdateGroup><![CDATA[//*[@id='BulkUpdateGroupCampaignGroup']]]></BulkUpdateGroup>
+<GroupName><![CDATA[//*[@id='BulkUpdateGroupGroupName']]]></GroupName>
+<updategroup><![CDATA[//*[@id='update_group']/div/div/div[3]/a]]></updategroup>
+
+  ##### Bulk Delete campaign###################
+<Bulkdelete><![CDATA[//*[@id='remove_record']]]></Bulkdelete>
+
+  ############### View page ############################################
+      
+      ###########Inline Edit #############
+  <EditOwner><![CDATA[//*[@id='responsibility']]]></EditOwner>
+  <EditManager><![CDATA[//*[@id='campaigns_grid_wrapper']/div[1]/div/div/button]]></EditManager>
+  <EditCategory><![CDATA[//*[@id='bulk_update']]]></EditCategory>
+  <Ownerdropdown><![CDATA[html/body/div[4]/div[2]/div[2]/div/div/div[2]/div/div[1]/div[2]/div/div/div/div[1]/div/div/div/div[2]/div/form/div/div[1]/div[1]/select]]></Ownerdropdown>
+  <Managerdropdown><![CDATA[html/body/div[4]/div[2]/div[2]/div/div/div[2]/div/div[1]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div/form/div/div[1]/div[1]/select]]></Managerdropdown>
+  <Categorydropdown><![CDATA[//*[@id='s2id_autogen6']/a/span[1]]]></Categorydropdown>
+  <Ownersave><![CDATA[//*[@id='BulkUpdateAssignedUserId']]]></Ownersave>
+  <Managersave><![CDATA[//*[@id='BulkUpdateAssignedManagerId']]]></Managersave>
+  <Categorysave><![CDATA[//*[@id='update_all']/div/div/div[3]/a]]></Categorysave>
+  
+            ############### Tabs ###########################
+  
+<Timeline><![CDATA[//*[@id='time_line']]]></Timeline>
+<Listview><![CDATA[//*[@id='timelinelist']/div[1]/a]]></Listview>
+<Graphicalview><![CDATA[//*[@id='change_log_table_wrapper']/div[2]/div/a]]></Graphicalview>
+<activitytab><![CDATA[//*[@id='activity1']]]></activitytab>
+<descriptiontab><![CDATA[//*[@id='description1']]]></descriptiontab>
+<leadstab><![CDATA[//*[@id='leads1']]]></leadstab>
+<contacttab><![CDATA[//*[@id='contact1']]]></contacttab>
+<opportunitytab><![CDATA[//*[@id='position1']]]></opportunitytab>
+<statisticstab><![CDATA[//*[@id='statistics1']]]></statisticstab>
+
+  <Addto><![CDATA[//*[@id='s2id_autogen3']]]></Addto>
+  <AddtoGroup><![CDATA[//*[@id='select2-drop']SSS]]></AddtoGroup>
+  <Save><![CDATA[//*[@id='savegroup']]]></Save>
+  <cancel><![CDATA[//*[@id='cancelgroup']]]></cancel>
+  <Removegroup><![CDATA[//*[@id='GroupsForm']/div/div[2]/div[1]/div/div/span/a]]></Removegroup>
+
+
+ ########################## Add Campaign Group ######################################
+
+
+<FilterGroups><![CDATA[//*[@id='CampaignQuickSearchIndexForm']/table/tbody/tr[2]/td[1]/label/a]]></FilterGroups>
+<groupsfilter><![CDATA[//*[@id='campaign_groups_filter']/label/input]]></groupsfilter>
+<groupsReset><![CDATA[//*[@id='ToolTables_campaign_groups_0']]]></groupsReset>
+<DeletecampaignGroup><![CDATA[//*[@id='remove_campaign']]]></DeletecampaignGroup>
+<groupMasterbox><![CDATA[//*[@id='campaign_groups']/thead/tr/th[1]/div/span/input]]></groupMasterbox>
+<newGroup><![CDATA[//*[@id='actionbuttons']]]></newGroup>
+<CampaignName><![CDATA[//*[@id='CampaignGroupDetailName']]]></CampaignName>
+<GroupCity><![CDATA[//*[@id='CampaignGroupDetailCity']]]></GroupCity>
+<Groupstate><![CDATA[//*[@id='CampaignGroupDetailState']]]></Groupstate>
+<GroupCountry><![CDATA[//*[@id='CampaignGroupDetailCountry']]]></GroupCountry>
+<Groupzipcode><![CDATA[//*[@id='CampaignGroupDetailPostalCode']]]></Groupzipcode>
+<GroupPermissions><![CDATA[//*[@id='form_sample_1']/div[2]/div/ul/li[7]/a]]></GroupPermissions>
+<Groupsave><![CDATA[//*[@id='form_sample_1']/div[2]/div/ul/li[6]/button]]></Groupsave>
+<GroupCancel><![CDATA[//*[@id='form_sample_1']/div[2]/div/ul/li[5]/a]]></GroupCancel>
+
+<BacktoGroup><![CDATA[//*[@id='form_sample_1']/div[2]/div/ul/li[3]/a]]></BacktoGroup>
+<ViewGroup><![CDATA[//*[@id='campaign_groups']/tbody/tr[1]/td[2]/a]]></ViewGroup>
+
+<ActionIcon><![CDATA[//*[@id='actionicons1']/a/i[2]]]></ActionIcon>
+<ViewIcon><![CDATA[//*[@id='actionicons1']/ul/li[1]/a]]></ViewIcon>
+<EditIcon><![CDATA[//*[@id='actionicons1']/ul/li[2]/a]]></EditIcon>
+<DeleteIcon><![CDATA[//*[@id='actionicons1']/ul/li[3]/a]]></DeleteIcon>
+
+  ########## Groupsview #######################
+
+<Edit><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[7]/a]]></Edit>
+<MoreactionsDelete><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[6]/div/div/ul/li/a]]></MoreactionsDelete>
+<MoreActions><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[6]/div/div/a]]></MoreActions>
+<New><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/a]]></New>
+<GroupBulkactions><![CDATA[html/body/div[4]/div[2]/div[2]/div[1]/div/div[2]/form/div/div[4]/div/div[1]/div/div[3]/div/button]]></GroupBulkactions>
+<GroupBulkDelete><![CDATA[//*[@id='delete_member']]]></GroupBulkDelete>
+<GroupBulkUpdate><![CDATA[//*[@id='bulk_update']]]></GroupBulkUpdate>
+<AddCampaignsToGroup><![CDATA[html/body/div[4]/div[2]/div[2]/div[1]/div/div[2]/form/div/div[4]/div/div[1]/div/div[2]/a]]></AddCampaignsToGroup>
+<ViewCampaignfromgroupview><![CDATA[//*[@id='related_campaigns_table']/tbody/tr/td[2]/a]]></ViewCampaignfromgroupview>
+<DeleteCampaignfromgroup><![CDATA[//*[@id='related_campaigns_table']/tbody/tr/td[10]/a]]></DeleteCampaignfromgroup>
+<RecordsPerPage><![CDATA[//*[@id='s2id_autogen6']/a]]></RecordsPerPage>
+<MasterCheckbox><![CDATA[//*[@id='related_campaigns_table']/thead/tr/th[1]/div/span/input]]></MasterCheckbox>
+<AddToGroup><![CDATA[//*[@id='CreateCampaignGroup']/div[2]/div/ul/li[6]/button]]></AddToGroup>
+
+
+  ############################# Import campaign ########################################
+<Import><![CDATA[html/body/div[4]/div[1]/ul/li[7]/ul/li[2]/a]]></Import>
+<ImportFilter><![CDATA[//*[@id='campaign_imports_filter']/label/input]]></ImportFilter>
+<Reset><![CDATA[//*[@id='CreateCampaignGroup']/div[2]/div/ul/li[6]/button]]></Reset>
+<CampaignImportView><![CDATA[//*[@id='campaign_imports']/tbody/tr[1]/td[8]/a[1]/span/img/*[@='campaign_imports']/tbody/tr[1]/td[1]/a]]></CampaignImportView>
+<ImportDeleteIcon><![CDATA[//*[@id='campaign_imports']/tbody/tr[1]/td[8]/a[1]/span/img/*]]ImportDeleteIcon]] ]]></ImportDeleteIcon>
+<Back><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[7]/a]]></Back>
+
+  ############################## Customview ###############################################################
+
+  <Customviews><![CDATA[//*[@id='CampaignQuickSearchIndexForm']/table/tbody/tr[1]/td[2]/div/div[1]/a]]></Customviews>
+  <CustomviewView><![CDATA[//*[@id='campaign_saved_views']/tbody/tr/td[2]/a]]></CustomviewView>
+  <EditCustomview><![CDATA[//*[@id='saved_edit']]]></EditCustomview>
+  <DeleteCustomView><![CDATA[//*[@id='deleteSearch']]]></DeleteCustomView>
+  <SetasDefault><![CDATA[//*[@id='makedefaultsearch'] ]]></SetasDefault>
+  <Unsetdefault><![CDATA[//*[@id='removedefaultsearch']]]></Unsetdefault>
+  <Cancelcustomviewedit><![CDATA[//*[@id='CampaignIndexForm']/div[2]/div[1]/div/div/a[2]]]></Cancelcustomviewedit>
+  <CustomviewNew><![CDATA[//*[@id='CampaignQuickSearchIndexForm']/table/tbody/tr[1]/td[2]/div/div[3]/a[3]]]></CustomviewNew>
+
+
+  ###################################### Trash ###########################################
+  <Trash><![CDATA[html/body/div[4]/div[1]/ul/li[7]/ul/li[4]/a]]></Trash>
+  <Back><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/a]]></Back>
+  <Grouptrash><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[3]/a]]></Grouptrash>
+  <Filter><![CDATA[//*[@id='campaign_trash_filter']/label/input]]></Filter>
+  <Reset><![CDATA[//*[@id='ToolTables_campaign_trash_0']]]></Reset>
+  <ExportCSV><![CDATA[//*[@id='ZeroClipboard_TableToolsMovie_1'] ]]></ExportCSV>
+  <ExPDFport><![CDATA[//*[@id='ZeroClipboard_TableToolsMovie_2']]]></ExPDFport>
+  <RecordsperPage><![CDATA[//*[@id='campaign_trash_length']/label/select]]></RecordsperPage>
+  <bulkactionstrash><![CDATA[//*[@id='campaign_trash_wrapper']/div[1]/div/div/button]]></bulkactionstrash>
+  <DeleteForeever><![CDATA[//*[@id='remove_record']]]></DeleteForeever>
+  <RestoreCampaign><![CDATA[//*[@id='restore_record']]]></RestoreCampaign>
+  <ViewRecord><![CDATA[//*[@id='normal']]]></ViewRecord>
+  <Back><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/a]]></Back>
+  <Restore><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/a]]></Restore>
+  <Delete><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/a]]></Delete>
+  <GroupRecordview><![CDATA[//*[@id='campaigngroup_trash']/tbody/tr[1]/td[2]/a]]></GroupRecordview>
+  <restoreGrouprecord><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[7]/a]]></restoreGrouprecord>
+  <Deletegrouprecord><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[6]/a]]]></Deletegrouprecord>
+  <Grouptrashbulkactions><![CDATA[//*[@id='campaigngroup_trash_wrapper']/div[1]/div/div/button]]></Grouptrashbulkactions>
+  <Groupdelete><![CDATA[//*[@id='remove_campaigngroup']]]></Groupdelete>
+  <GroupRestore><![CDATA[//*[@id='restore_campaigngroup']]]></GroupRestore>
+
+</Locator>
+
+
+
+

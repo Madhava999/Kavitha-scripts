@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<locator>
+
+
+    
+    <partners><![CDATA[//*[@id='partners']]]></partners>
+    <partnerAddNew><![CDATA[//*[@id='actionbuttons']]]></partnerAddNew>
+    <Owner><![CDATA[//*[@id='PartnerAssignedUserId']]]></Owner>
+    <Manager><![CDATA[//*[@id='PartnerAssignedManagerId']]]></Manager>>
+    <PartnerName><![CDATA[//*[@id='PartnerName']]]></PartnerName>
+    <PartnerCompany><![CDATA[//*[@id='PartnerCompany']]]></PartnerCompany>
+    <PartnerWebsite><![CDATA[//*[@id='PartnerWebsite']]]></PartnerWebsite>
+    <PartnerCode><![CDATA[//*[@id='PartnerPartnerCode']]]></PartnerCode>
+    <LinkedinUrl><![CDATA[//*[@id='PartnerLinkedinUrl']]]></LinkedinUrl>
+    <facebookUrl><![CDATA[//*[@id='PartnerFacebookUrl']]]></facebookUrl>
+    <TwitterUrl><![CDATA[//*[@id='PartnerTwitterUrl']]]></TwitterUrl>
+    <AddressType><![CDATA[//*[@id='PartnerAddress0Type']]]></AddressType>
+    <AddressLine1><![CDATA[//*[@id='PartnerAddress0AddressLine1']]]></AddressLine1>
+    <AddressLine2><![CDATA[//*[@id='PartnerAddress0AddressLine2']]]></AddressLine2>
+    <City><![CDATA[//*[@id='PartnerAddress0City']]]></City>
+    <State><![CDATA[//*[@id='PartnerAddress0State']]]></State>
+    <Country><![CDATA[//*[@id='PartnerAddress0Country']]]></Country>
+    <Zipcode><![CDATA[//*[@id='PartnerAddress0PostalCode']]]></Zipcode>
+    <Salutation><![CDATA[//*[@id='PartnerContact0Salutation']]]></Salutation>
+    <FirstName><![CDATA[//*[@id='PartnerContact0FirstName']]]></FirstName>
+    <MiddleName><![CDATA[//*[@id='PartnerContact0MiddleName']]]></MiddleName>
+    <LastName><![CDATA[//*[@id='PartnerContact0LastName']]]></LastName>
+    <PhoneType><![CDATA[//*[@id='PartnerContact0PartnerContactPhone0PhoneType']]]></PhoneType>
+    <PhoneFormat><![CDATA[//*[@id='PartnerContact0PartnerContactPhone0PhoneFormat']]]></PhoneFormat>
+    <Primaryradiobutton><![CDATA[//*[@id='collapse_1']/div/div[3]/div/div/div[3]/div/label/div/span]]></Primaryradiobutton>
+    <Checkbox><![CDATA[//*[@id='uniform-PartnerContact0PartnerContactPhone0DoNotCall']/span]]></Checkbox>
+    <Email><![CDATA[//*[@id='PartnerContact0PartnerContactElectronicAddress0ElectronicContentType']]]></Email>
+    <EmailId><![CDATA[//*[@id='PartnerContact0PartnerContactElectronicAddress0ElectronicContent']]]></EmailId>
+    <Primayradiobutton><![CDATA[//*[@id='email_option_0_0']/div[1]/div/label/div/span]]></Primayradiobutton>
+    <OptOut><![CDATA[//*[@id='PartnerContact0PartnerContactElectronicAddress0OptOut']]]></OptOut>
+    <SocialLinkType><![CDATA[//*[@id='PartnerContact0PartnerContactSocialLink0SocialLinkType']]]></SocialLinkType>
+    <SocialLink><![CDATA[//*[@id='PartnerContact0PartnerContactSocialLink0SocialLink']]]></SocialLink>
+    <optedout><![CDATA[//*[@id='uniform-PartnerContact0PartnerContactSocialLink0OptOut']/span]]></optedout>
+    <save><![CDATA[//*[@id='PartnerAddnewForm']/div[3]/div/div[5]/div/div/button]]></save>
+    <cancel><![CDATA[//*[@id='PartnerAddnewForm']/div[3]/div/div[5]/div/div/a[2]]]></cancel>
+
+####################### Partner Index page ####################################################
+
+  <DefaultView><![CDATA[//*[@id='teamName']]]></DefaultView>
+  <CustomView><![CDATA[//*[@id='savedSearch']]]></CustomView>
+  <Filter><![CDATA[//*[@id='partners_grid_filter']/label/input]]></Filter>
+  <Reset><![CDATA[//*[@id='ToolTables_partners_grid_0']]]></Reset>>
+  <ExportCSV><![CDATA[//*[@id='ZeroClipboard_TableToolsMovie_1']]]></ExportCSV>
+  <ExportPDF><![CDATA[//*[@id='ZeroClipboard_TableToolsMovie_2']]]></ExportPDF>
+  <PartnerView><![CDATA[//*[@id='normal']]]></PartnerView>
+  <Recordsperpage><![CDATA[//*[@id='partners_grid_length']/label/select]]></Recordsperpage>
+  <Bulkupdate><![CDATA[//*[@id='bulk_update']]]></Bulkupdate>
+
+</locator>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+     

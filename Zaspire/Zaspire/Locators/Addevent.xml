@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locator>
+  
+  <AddEvent>
+  
+  <Selectevents><![CDATA[//*[@id='events']]]></Selectevents>
+  <Clickonnew><![CDATA[html/body/div[4]/div[2]/div[1]/div/div[2]/ul/li[3]/a]]></Clickonnew>
+  <SelectRelatedTo><![CDATA[//*[@id='s2id_EventParentType']]]></SelectRelatedTo>
+  <SelectMergeRecords><![CDATA[//*[@id='assignrecord']]]></SelectMergeRecords>
+  <SelectRelatedname><![CDATA[//*[@id='relatedToContent']/table/tbody/tr[1]/td[1]]]></SelectRelatedname>
+  <EventCategory><![CDATA[//*[@id='s2id_EventCategoryId']]]></EventCategory>
+  <EventPriority><![CDATA[//*[@id='s2id_EventPriority']]]></EventPriority>
+  <EventAssignedUser><![CDATA[//*[@id='s2id_EventAssignedUserId']]]></EventAssignedUser>
+  <SelectEventType><![CDATA[//*[@id='s2id_EventType']]]></SelectEventType>
+  <SelectEventStatus><![CDATA[//*[@id='s2id_EventEventStatus']]]></SelectEventStatus>
+  <EnterSubject><![CDATA[//*[@id='EventName']]]></EnterSubject>
+  <EnterEventLocation><![CDATA[//*[@id='EventLocation']]]></EnterEventLocation>
+  <SelectEventStartDate><![CDATA[//*[@id='EventStartDate']]]></SelectEventStartDate>
+  <Selectstarttime><![CDATA[//*[@id='clockface_start_event']]]></Selectstarttime>
+  <SelectEventEndDate><![CDATA[//*[@id='EventEndDate']]]></SelectEventEndDate>
+  <Selectendtime><![CDATA[//*[@id='clockface_end_event']]]></Selectendtime>
+  <CheckReminder><![CDATA[//*[@id='pop']/label/div/span]]></CheckReminder>
+  <SelectreminderTime><![CDATA[//*[@id='reminderTime']]]></SelectreminderTime>
+  <Emailpopup><![CDATA[//*[@id='EventAddnewForm']/div[3]/div/div[1]/div/div/div[3]/div[3]/div/div[1]/label/div/span]]></Emailpopup>
+  <SelectemailReminderTime><![CDATA[//*[@id='emailReminderTime']]]></SelectemailReminderTime>
+  <Clickonsave><![CDATA[//*[@id='EventAddnewForm']/div[3]/div/div[3]/div/div/button]]></Clickonsave>
+  <ClickonCancel><![CDATA[//*[@id='EventAddnewForm']/div[3]/div/div[3]/div/div/a]]></ClickonCancel>
+
+  
+  </AddEvent>
+
+
+</Locator>

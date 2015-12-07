@@ -1,0 +1,40 @@
+c:\users\iss_la_05\documents\visual studio 2013\Projects\Zaspire\Zaspire\bin\Debug\Zaspire.dll
+c:\users\iss_la_05\documents\visual studio 2013\Projects\Zaspire\Zaspire\bin\Debug\Zaspire.pdb
+c:\users\iss_la_05\documents\visual studio 2013\Projects\Zaspire\Zaspire\bin\Debug\LinqToExcel.dll
+c:\users\iss_la_05\documents\visual studio 2013\Projects\Zaspire\Zaspire\bin\Debug\log4net.dll
+c:\users\iss_la_05\documents\visual studio 2013\Projects\Zaspire\Zaspire\bin\Debug\Remotion.Data.Linq.dll
+c:\users\iss_la_05\documents\visual studio 2013\Projects\Zaspire\Zaspire\bin\Debug\Remotion.dll
+c:\users\iss_la_05\documents\visual studio 2013\Projects\Zaspire\Zaspire\bin\Debug\Remotion.Interfaces.dll
+c:\users\iss_la_05\documents\visual studio 2013\Projects\Zaspire\Zaspire\bin\Debug\Selenium.WebDriverBackedSelenium.dll
+c:\users\iss_la_05\documents\visual studio 2013\Projects\Zaspire\Zaspire\bin\Debug\ThoughtWorks.Selenium.Core.dll
+c:\users\iss_la_05\documents\visual studio 2013\Projects\Zaspire\Zaspire\bin\Debug\WebDriver.dll
+c:\users\iss_la_05\documents\visual studio 2013\Projects\Zaspire\Zaspire\bin\Debug\WebDriver.Support.dll
+c:\users\iss_la_05\documents\visual studio 2013\Projects\Zaspire\Zaspire\bin\Debug\LinqToExcel.xml
+c:\users\iss_la_05\documents\visual studio 2013\Projects\Zaspire\Zaspire\bin\Debug\log4net.xml
+c:\users\iss_la_05\documents\visual studio 2013\Projects\Zaspire\Zaspire\bin\Debug\Selenium.WebDriverBackedSelenium.pdb
+c:\users\iss_la_05\documents\visual studio 2013\Projects\Zaspire\Zaspire\bin\Debug\Selenium.WebDriverBackedSelenium.xml
+c:\users\iss_la_05\documents\visual studio 2013\Projects\Zaspire\Zaspire\bin\Debug\ThoughtWorks.Selenium.Core.pdb
+c:\users\iss_la_05\documents\visual studio 2013\Projects\Zaspire\Zaspire\bin\Debug\ThoughtWorks.Selenium.Core.xml
+c:\users\iss_la_05\documents\visual studio 2013\Projects\Zaspire\Zaspire\bin\Debug\WebDriver.pdb
+c:\users\iss_la_05\documents\visual studio 2013\Projects\Zaspire\Zaspire\bin\Debug\WebDriver.xml
+c:\users\iss_la_05\documents\visual studio 2013\Projects\Zaspire\Zaspire\bin\Debug\WebDriver.Support.pdb
+c:\users\iss_la_05\documents\visual studio 2013\Projects\Zaspire\Zaspire\bin\Debug\WebDriver.Support.xml
+c:\users\iss_la_05\documents\visual studio 2013\Projects\Zaspire\Zaspire\obj\Debug\Zaspire.csprojResolveAssemblyReference.cache
+c:\users\iss_la_05\documents\visual studio 2013\Projects\Zaspire\Zaspire\obj\Debug\Zaspire.dll
+c:\users\iss_la_05\documents\visual studio 2013\Projects\Zaspire\Zaspire\obj\Debug\Zaspire.pdb
+E:\Zaspire\Zaspire\bin\Debug\Zaspire.dll
+E:\Zaspire\Zaspire\bin\Debug\Zaspire.pdb
+E:\Zaspire\Zaspire\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\Zaspire\Zaspire\bin\Debug\LinqToExcel.xml
+E:\Zaspire\Zaspire\bin\Debug\log4net.xml
+E:\Zaspire\Zaspire\bin\Debug\Selenium.WebDriverBackedSelenium.pdb
+E:\Zaspire\Zaspire\bin\Debug\Selenium.WebDriverBackedSelenium.xml
+E:\Zaspire\Zaspire\bin\Debug\ThoughtWorks.Selenium.Core.pdb
+E:\Zaspire\Zaspire\bin\Debug\ThoughtWorks.Selenium.Core.xml
+E:\Zaspire\Zaspire\bin\Debug\WebDriver.pdb
+E:\Zaspire\Zaspire\bin\Debug\WebDriver.xml
+E:\Zaspire\Zaspire\bin\Debug\WebDriver.Support.pdb
+E:\Zaspire\Zaspire\bin\Debug\WebDriver.Support.xml
+E:\Zaspire\Zaspire\obj\Debug\Zaspire.csprojResolveAssemblyReference.cache
+E:\Zaspire\Zaspire\obj\Debug\Zaspire.dll
+E:\Zaspire\Zaspire\obj\Debug\Zaspire.pdb
